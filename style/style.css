@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Cabecera */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.display-f{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.content-space-between{
+    justify-content: space-between;
+}
+.content-header{
+    width: 100%;
+    background-color: #20232B;
+    padding: 1.5%;
+    flex-wrap: inherit;
+}
+.opc li{
+    margin: 0 10px;
+    background-color: #00E8C6;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.opc li:hover{
+    background-color: #0DB29B;
+}
+.logo{
+    width: 3em;
+}
+.fi-brands-visual-basic{
+    font-size: 2.5em;
+    color: #38A7F2;
+}
+
+/* Cuerpo */
+main{
+    background-color: #2E323D;
+    padding: 1.5%;
+}
+.web{
+    width: 15%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    gap: 10px;
+}
+.html, .css, .php, .python, .mysql, .java{
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+}
